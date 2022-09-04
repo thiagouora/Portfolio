@@ -253,7 +253,6 @@
 
     .project-container {
         position: absolute;
-        left: 10px;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
@@ -265,7 +264,7 @@
 
     .project-container .projects {
         position: relative;
-        height: 80%;
+        height: 85%;
         min-width: 90%;
         background-color: rgb(9, 6, 31);
         border-radius: 20px;
