@@ -256,10 +256,11 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        height: 80%;
-        width: 100%;
+        height: 95%;
+        width: 90%;
         overflow-x: scroll;
         overflow-y: hidden;
+        margin-right: 20px;
     }
 
     .project-container .projects {
