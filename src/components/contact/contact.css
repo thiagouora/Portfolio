@@ -112,6 +112,7 @@
     backdrop-filter: blur(20px);
     transition: background 0.3s ease, transform 0.2s ease;
   }
+
   .contact-container .contact .icon {
     position: relative;
     font-size: 200px;
@@ -181,6 +182,7 @@
     backdrop-filter: blur(20px);
     transition: background 0.3s ease, transform 0.2s ease;
   }
+
   .contact-container .contact .icon {
     position: relative;
     font-size: 130px;
@@ -250,6 +252,7 @@
     backdrop-filter: blur(20px);
     transition: background 0.3s ease, transform 0.2s ease;
   }
+
   .contact-container .contact .icon {
     position: relative;
     font-size: 150px;
@@ -319,6 +322,7 @@
     backdrop-filter: blur(20px);
     transition: background 0.3s ease, transform 0.2s ease;
   }
+
   .contact-container .contact .icon {
     position: relative;
     font-size: 150px;

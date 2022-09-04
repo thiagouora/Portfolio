@@ -1,7 +1,6 @@
 import "./footer.css";
 import { BsMouse } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { TiSocialGithub } from "react-icons/ti";
 
 function Footer() {
@@ -15,7 +14,7 @@ function Footer() {
           </h2>
         </a>
       </h1>
-      <div className="social-links">   
+      <div className="social-links">
         <a href="https://www.linkedin.com/in/thiago-uora/">
           <FaLinkedinIn className="social" />
         </a>

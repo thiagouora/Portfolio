@@ -1,5 +1,7 @@
 import "./contact.css";
-import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import { RiLinkedinFill } from "react-icons/ri";
+import { TiSocialGithub } from "react-icons/ti";
 
 function Contact() {
   return (
@@ -7,24 +9,18 @@ function Contact() {
       <h1>Contatos</h1>
       <div className="contact-links">
         <a
-          href="https://wa.link/jou861"
-          className="contact whatsapp"
-          target={"blank"}
+          href="https://www.linkedin.com/in/thiago-uora/"
+          className="contact linkedin"
         >
-          <AiOutlineWhatsApp className="icon" />
-          <h2>
-            whatsapp <span>+55 73 98240-4929</span>
-          </h2>
+          <RiLinkedinFill className="icon" />
+          <h2>Linkedin</h2>
         </a>
-        <a
-          href="https://www.instagram.com/_uora/"
-          className="contact instagram"
-        >
-          <AiOutlineInstagram className="icon" />
-          <h2>
-            instagram <span>_uora</span>
-          </h2>
+
+        <a href="https://github.com/thiagouora" className="contact github">
+          <TiSocialGithub className="icon" />
+          <h2>Github</h2>
         </a>
+
         <a
           href="https://criarmeulink.com.br/u/1662040006"
           className="contact email"
