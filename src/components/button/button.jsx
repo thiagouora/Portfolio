@@ -5,7 +5,7 @@ function Buttons() {
   return (
     <div className="container button-container">
       <a href="#project" className="btn pri">
-        Leia mais
+        Projetos
       </a>
       <a href="#contact" className="btn sec">
         Contato

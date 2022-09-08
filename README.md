@@ -26,7 +26,7 @@
 git clone [http ou ssh]   // Para clonar o repositório.
 cd /pasta_do_repositório    // Para entrar na pasta do repositório.
 npm install   // Para instalar as dependências.
-npm run dev   // Após o comando ser executado, acesse: localhost:3000/
+npm start   // Após o comando ser executado, acesse: localhost:3000/
 ```
 
 

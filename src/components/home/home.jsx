@@ -1,6 +1,5 @@
 import "./home.css";
 import { useState } from "react";
-import img from "../props/img2.jpg";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
@@ -25,7 +24,7 @@ function Home() {
           <span className="circle"></span>
         </div>
 
-        <img src={img} alt="" />
+        <img src="https://github.com/thiagouora.png" alt="" />
       </div>
 
       <a href="#footer" className="scroll-down">
@@ -35,14 +34,17 @@ function Home() {
         <hr />
       </a>
 
-      <h2 id="about">
+      <h2 id="about" className="about">
         <span>Sobre Mim</span> <br />
         <p>
-          Conclui os cursos de PPA,PCA/IFR, MLTE, INVA e PLN no Aeroclube de
-          Uberlândia, Aeroclube de Itápolis e EJ Escola de Aviação Civil. Além
-          de ter realizado os cursos para piloto, também estou cursando Analise
-          de Sistemas para Internet na faculdade Unisul, onde estou me dedicando
-          a estudar linguagens de programação e afins.
+          Olá, me chamo Thiago Uora, sou desenvolvedor front-end e piloto
+          comercial de aeronaves, estou migrando de carreira faz algum tempo,
+          hoje me dedico a estudar linguagens de programação e afins. Meu
+          objetivo é um dia me tornar um desenvolvedor full stack, mas para os
+          próximos anos me vejo no front-end ou mobile e formado na graduação de
+          análise de sistemas, tenho experiência com JavaScript, HTML5, CSS3,
+          React e outros, adoro tecnologia e estou sempre buscando aprender e
+          estar por dentro deste mundo que muda constantemente.
         </p>
       </h2>
 

@@ -103,7 +103,7 @@
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
   transform: translateX(-150%) translateY(150%);
-  background: url(../props/kotlin.png);
+  background: url(../props/nextjs.png);
   background-size: cover;
   background-position: center;
 }
@@ -111,7 +111,7 @@
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-210%);
-  background: url(../props/c-plus-plus.png);
+  background: url(../props/git.png);
   background-size: cover;
   background-position: center;
 }
@@ -119,7 +119,7 @@
 .home-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-150%) translateY(-150%);
-  background: url(../props/c-sharp.png);
+  background: url(../props/java.png);
   background-size: cover;
   background-position: center;
 }
@@ -142,7 +142,8 @@
   }
 }
 
-.home-container h2 {
+.home-container .about {
+  top: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -152,21 +153,20 @@
   margin-top: 50px;
 }
 
-.home-container h2 span {
+.home-container .about span {
   font-size: 25px;
   opacity: 0.8;
   padding-bottom: 5px;
-  border-bottom: 2px solid var(--color-pri);
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-.home-container h2 p {
+.home-container .about p {
   font-size: 20px;
   opacity: 1;
   font-weight: 80;
   margin-top: 1px;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 .scroll-down {
@@ -256,7 +256,7 @@
     animation: fade-in 1s ease 1 0.5s forwards;
   }
 
-  .home-container h2 {
+  .home-container .about {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@
     margin-top: 200px;
   }
 
-  .home-container h2 span {
+  .home-container .about span {
     font-size: 25px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -274,7 +274,7 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  .home-container .about p {
     font-size: 25px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
@@ -341,7 +341,7 @@
     animation: fade-in 1s ease 1 0.5s forwards;
   }
 
-  .home-container h2 {
+  .home-container .about {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -351,7 +351,7 @@
     margin-top: 200px;
   }
 
-  .home-container h2 span {
+  .home-container .about span {
     font-size: 22px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -359,7 +359,7 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  .home-container .about p {
     font-size: 18px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
@@ -438,7 +438,7 @@
     animation: fade-in 1s ease 1 0.5s forwards;
   }
 
-  .home-container h2 {
+  .home-container .about {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -448,7 +448,7 @@
     margin-top: 250px;
   }
 
-  .home-container h2 span {
+  .home-container .about span {
     font-size: 22px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -456,7 +456,7 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  .home-container .about p {
     font-size: 18px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;

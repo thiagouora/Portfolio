@@ -11,14 +11,15 @@ const Projects = () => {
       </h2>
       <div className="container proj-container">
         <div className="project-container">
+          
           <div className="projects">
-            <div className="content js"></div>
+            <div className="content organo"></div>
             <h1 className="project-title">Organo</h1>
             <p className="project-text">
-              Aplicativo para criar e organizar seu time.
+              Crie e organize seu time.
             </p>
             <a
-              href="https://github.com/thiagouora/organo"
+              href="https://organo-three.vercel.app"
               className="project-link"
             >
               <FaExternalLinkAlt className="ext-link" />
@@ -26,18 +27,47 @@ const Projects = () => {
           </div>
 
           <div className="projects">
-            <div className="content react"></div>
-            <h1 className="project-title">React</h1>
+            <div className="content paint"></div>
+            <h1 className="project-title">Pixel Paint</h1>
             <p className="project-text">
-              Aplicativo para criar e organizar seu time.
+              Use a criatividade com os Pixels.
             </p>
             <a
-              href="https://github.com/thiagouora/organo"
+              href="https://pixelpaint.vercel.app"
               className="project-link"
             >
               <FaExternalLinkAlt className="ext-link" />
             </a>
           </div>
+
+          <div className="projects">
+            <div className="content pokedex"></div>
+            <h1 className="project-title">Pokedex</h1>
+            <p className="project-text">
+              Pokedex com mais de 500 pokemons!
+            </p>
+            <a
+              href="https://pokedex-tu.vercel.app"
+              className="project-link"
+            >
+              <FaExternalLinkAlt className="ext-link" />
+            </a>
+          </div>
+
+          <div className="projects">
+            <div className="content mochila"></div>
+            <h1 className="project-title">Mochila-Viajem</h1>
+            <p className="project-text">
+              Crie uma lista de itens para viajem.
+            </p>
+            <a
+              href="https://mochiladeviagem.vercel.app"
+              className="project-link"
+            >
+              <FaExternalLinkAlt className="ext-link" />
+            </a>
+          </div>
+
         </div>
       </div>
     </>

@@ -11,10 +11,9 @@
 
 .contact-container h1 {
   margin: 0 auto;
-  font-size: 22px;
-  font-family: 'Open Sans Condensed';
+  font-size: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 400;
-  color: var(--color-pri);
 }
 
 .contact-container .contact-links {
